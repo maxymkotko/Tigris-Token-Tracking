@@ -1,0 +1,35 @@
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: url(./assets/fonts/DMSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-BoldItalic';
+    src: url(./assets/fonts/DMSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Italic';
+    src: url(./assets/fonts/DMSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Medium';
+    src: url(./assets/fonts/DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-MediumItalic';
+    src: url(./assets/fonts//DMSans-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url(./assets/fonts/DMSans-Regular.ttf);
+}

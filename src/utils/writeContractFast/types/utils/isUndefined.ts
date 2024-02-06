@@ -1,0 +1,1 @@
+export type IsUndefined<T> = [undefined] extends [T] ? true : false

@@ -1,0 +1,28 @@
+.highcharts-background {
+  fill: #161221;
+}
+
+.highcharts-button {
+  fill: none;
+}
+
+.highcharts-label-box {
+  fill: #161221;
+}
+
+.highcharts-graph {
+  stroke: #27a69a;
+}
+
+.highcharts-button-box {
+  fill: none;
+}
+
+text {
+  color: #777e91 !important;
+  fill: #777e91 !important;
+}
+
+.highcharts-grid-line {
+  stroke: #777e91;
+}

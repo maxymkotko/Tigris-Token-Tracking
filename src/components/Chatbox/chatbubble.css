@@ -1,0 +1,37 @@
+.spinner {
+  background-image: linear-gradient(#0049dc 10%, #920bbc);
+  width: 50px;
+  height: 50px;
+  animation: spinning 8s linear infinite;
+  text-align: center;
+  border-radius: 50px;
+  filter: blur(0px);
+}
+
+.notifier {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+@keyframes spinning {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .logs {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logs {
+    padding-right: 5px;
+  }
+}

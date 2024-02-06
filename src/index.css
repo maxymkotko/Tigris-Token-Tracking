@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Rubik&display=swap');
+
+/* ========================== font guide
+* font-family: 'Barlow', sans-serif; // base font
+* font-family: 'Chango', cursive; // effect font
+* font-family: 'Source Sans Pro', sans-serif;  // clean font
+*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'DM Sans' !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* base font */
+  font-family: 'DM Sans' !important;
+  color: #ffffff;
+  overscroll-behavior-y: none;
+}
+
+button {
+  font-family: 'DM Sans' !important;
+  padding: 0;
+  margin: 0;
+}
+
+.Mui-selected {
+  color: #ffffff !important;
+  height: 60px;
+}
+
+.MuiButton-endIcon {
+  margin-top: -1px;
+  margin-left: 4px !important;
+}
+
+.MuiTableCell-root {
+  padding: 8px !important;
+  border-bottom: none !important;
+}
+
+.MuiPaper-root {
+  background-image: none !important;
+  background-color: #18191d !important;
+}
+
+.MuiOutlinedInput-input {
+  -webkit-text-fill-color: rgba(255, 255, 255, 1) !important;
+}
+
+/* chrome and chromium based */
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 4px;
+  height: 4px;
+  background-color: #222630;
+  border-radius: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
